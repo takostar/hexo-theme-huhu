@@ -5,7 +5,7 @@ menu:
   categories: /categories
   tags: /tags
   friends: /friends
-  about: /about
+  about: /2020/01301130
 
 #logo
 logo: /images/logo.png
@@ -27,23 +27,25 @@ rss: /atom.xml
 
 #follow 按顺序展示
 follow:
-  github: 'https://github.com/shixiaohu2206'
-  facebook: 'https://www.facebook.com/shi.xiaohu.5'
-  instagram: 'https://www.instagram.com/shi_xiaohu/'
-  # twitter: 'https://github.com/shixiaohu2206'
-  # weixin: 'https://github.com/shixiaohu2206'
-  # alipay: 'https://github.com/shixiaohu2206'
-  # zhihu: 'https://github.com/shixiaohu2206'
-  # QQ: 'https://github.com/shixiaohu2206'
-  # weibo: 'https://github.com/shixiaohu2206'
-  # qqkongjian: 'https://github.com/shixiaohu2206'
-  # google: 'https://github.com/shixiaohu2206'
+  github: "https://github.com/TakoStar"
+  bangumi: "https://bgm.tv/user/359715"
+  cloudmusic: "https://music.163.com/#/user/home?id=19097915"
+  # facebook: ''
+  # instagram: ''
+  # twitter: ''
+  # weixin: 'https://raw.githubusercontent.com/TakoStar/takoStar.github.io/master/images/weixin_anokotoonajihuukeiga.png'
+  # alipay: ''
+  # zhihu:
+  QQ: "tencent://AddContact/?fromId=45&fromSubId=1&subcmd=all&uin=3541084828&website=www.oicqzone.com"
+  # weibo:
+  # qqkongjian:
+  # google:
 
 #search post url
 search_url: /search.xml
 
 #ICP 皖ICP备16021483号
-site_icp: ''
+site_icp: ""
 
 #分享
 share:
@@ -58,29 +60,85 @@ share:
 
 #cdn script
 cdn_script:
-  css: 'https://cdn.bootcss.com/require-css/0.1.10/css.min.js'
-  pjax: 'https://cdn.bootcss.com/jquery.pjax/2.0.1/jquery.pjax.min.js'
-  av_min: 'https://cdn.jsdelivr.net/npm/leancloud-storage/dist/av-min.js'
-  jquery: 'https://cdn.bootcss.com/jquery/3.4.1/jquery.min.js'
-  require: 'https://cdn.bootcss.com/require.js/2.3.6/require.min.js'
-  confirm: 'https://cdn.bootcss.com/jquery-confirm/3.3.4/jquery-confirm.min.js'
-  fancybox: 'https://cdn.bootcss.com/fancybox/3.5.7/jquery.fancybox.min.js'
-  chart: 'https://cdn.bootcss.com/Chart.js/2.8.0-rc.1/Chart.bundle.min.js'
+  css: "https://cdn.bootcss.com/require-css/0.1.10/css.min.js"
+  pjax: "https://cdn.bootcss.com/jquery.pjax/2.0.1/jquery.pjax.min.js"
+  av_min: "https://cdn.jsdelivr.net/npm/leancloud-storage/dist/av-min.js"
+  jquery: "https://cdn.bootcss.com/jquery/3.4.1/jquery.min.js"
+  require: "https://cdn.bootcss.com/require.js/2.3.6/require.min.js"
+  confirm: "https://cdn.bootcss.com/jquery-confirm/3.3.4/jquery-confirm.min.js"
+  fancybox: "https://cdn.bootcss.com/fancybox/3.5.7/jquery.fancybox.min.js"
+  chart: "https://cdn.bootcss.com/Chart.js/2.8.0-rc.1/Chart.bundle.min.js"
 
 #cdn css
 cdn_css:
-  confirm: 'https://cdn.bootcss.com/jquery-confirm/3.3.4/jquery-confirm.min.css'
-  fancybox: 'https://cdn.bootcss.com/fancybox/3.5.7/jquery.fancybox.min.css'
-  chart: 'https://cdn.bootcss.com/Chart.js/2.8.0-rc.1/Chart.min.css'
+  confirm: "https://cdn.bootcss.com/jquery-confirm/3.3.4/jquery-confirm.min.css"
+  fancybox: "https://cdn.bootcss.com/fancybox/3.5.7/jquery.fancybox.min.css"
+  chart: "https://cdn.bootcss.com/Chart.js/2.8.0-rc.1/Chart.min.css"
 
 #baidu push
 baidu_push: true
 
 #reward
 reward:
-  weixin: 'images/weixin.png'
-  zhifubao: 'images/zhifubao.png'
+  weixin: "images/weixin.png"
+  zhifubao: "images/zhifubao.png"
 
 #service worker 配合pjax
 service_worker:
   open: false #开启sw
+
+#https://github.com/alexbruno/hexo-generator-json-content
+jsonContent:
+  dateFormat: YYYY/MM/DD
+  pages: true
+  posts:
+    tags: true
+    title: true
+    date: true
+    text: true
+    permalink: true
+    photos: true
+  file: content.json
+
+# friends:
+#   - name: TakoStar's net by gitee
+#     time: '2019-1-31'
+#     url: 'https://takotako.gitee.io/'
+#     logo: 'https://takotako.gitee.io/images/logo.jpeg'
+#     intro: 'TakoStar'
+#valine评论
+valine:
+  API_ID: "u1UU8SWcbR9c1hgtvBttjywk-gzGzoHsz"
+  API_KEY: "0OkOE8cBdfl8fq2J6NlsilfQ"
+  #placeholder: 'でも、願いわ口にしないと叶わない'
+
+# 百度站点验证码
+baidu_site_verification: "MKbJ6yNHY1"
+
+# #百度联盟验证
+# baidu_union_verify: ''
+
+#百度统计
+baidu_tongji:
+  site_from: "2020/2/2"
+  #获取方法:https://tongji.baidu.com/api/manual/Chapter1/getSiteList.html
+  site_id: "14357486"
+  access_token: "21.df8dc9f5b4c446220a1852aa417dc01e.2592000.1583211143.574504534-18365763"
+
+#google-site-verification 添加在meta信息中
+google_site_verification: "vo_7gsdf3PSiQlNBryZCg8CXxtcqm47Zj5mOczGGwfw"
+
+#google gtm
+gtm_id: "GTM-5DHM8C5"
+
+#google ad
+# google_ad_client: "ca-pub-1284873796230151"
+# Plugins:
+# - hexo-generator-cname
+
+highlight:
+  enable: true
+  hljs: true #新增hljs参数，并设为true，不然无法使用highlight.js 官方的 css
+  line_number: false #暂不支持行号
+  auto_detect: false #这一项也关闭，若开启有可能报错
+  tab_replace:
